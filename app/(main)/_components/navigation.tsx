@@ -106,7 +106,7 @@ const Navigation = () => {
     } else {
       resetWidth();
     }
-  }, [isMobile, resetWidth]);
+  }, [isMobile]);
 
   const collapse = () => {
     if (sidebarRef.current && navbarRef.current) {
